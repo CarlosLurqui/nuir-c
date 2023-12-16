@@ -1,29 +1,28 @@
 <div align="center">
 
-# nuir c
+![nuir_c](https://github.com/xlitus/nuir-c/assets/140287817/451ed6f4-84bc-4ce7-ae97-f7ae1fa4cbb1)
 
 </div>
 
 ## features
 
-    🌐 › check CC/BIN.
-    ✍️ › readable and editable code for programmers.
-    🤓 › easy to use.
-
-<div align="center">
-
-[source code](https://codeload.github.com/xlitus/nuir-c/zip/refs/heads/nuir-c)
-·   [example code](https://raw.githubusercontent.com/xlitus/nuir-c/nuir-c/src/client.py)
-
-</div>
+```
+› developer zone available
+› check credit cards or bins
+› easy to use
+› redable for programmers
+› *.exe version
+```
 
 ## install
 
-use: `pip install nuirc`
+use: `pip install nuirc` or download [source code](https://codeload.github.com/xlitus/nuir-c/zip/refs/heads/nuir-c)
 
 ---
 
 ## example
+
+[example code](https://raw.githubusercontent.com/xlitus/nuir-c/nuir-c/src/client.py)
 
 ```py
 
