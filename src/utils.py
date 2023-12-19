@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
-import os
-import sys
+import os  ;  import sys
 
 from requests  import *
 from colorama  import init as cs
@@ -12,7 +11,7 @@ from time      import sleep
 
 cs(autoreset=True) # sys.base_prefix('  ')
 
-api_url = "https://lookup.binlist.net"
+api_url     = "https://lookup.binlist.net"
 api_headers = {'Accept-Version': '3'}
 
 #                          nuir c.
@@ -75,11 +74,10 @@ class api:
             b = b[0:6]
             r = get(f'{api_url}/{b}',headers=api_headers)
             
-            info = r.json() # r.text x.
-            
-            brand = info.get('scheme')
-            type = info.get('type')
-            bank =  info.get('bank', {}).get('name')
+            info = r.json() # r.text (...)
+            brand   = info.get('scheme')
+            type    = info.get('type')
+            bank    =  info.get('bank', {}).get('name')
             country = info.get('country', {}).get('name')
             
             rsl = f"""
@@ -107,9 +105,9 @@ class api:
             
             info = r.json() # r.text x.
             
-            brand = info.get('scheme')
-            type = info.get('type')
-            bank =  info.get('bank', {}).get('name')
+            brand   = info.get('scheme')
+            type    = info.get('type')
+            bank    =  info.get('bank', {}).get('name')
             country = info.get('country', {}).get('name')
             
             rsl = f"""
